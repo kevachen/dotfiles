@@ -1,0 +1,27 @@
+[alias]
+    # Shortened versions of common commands
+    co = checkout
+    dt = difftool
+    gall = !git grep
+    s = status -s
+    # Show verbose output about tags, branches or remotes
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+    # Pretty log outputs
+    hist = log --graph --pretty=format:'%Cred%h%Creset %s%C(yellow)%d%Creset %Cgreen(%cr)%Creset [%an]' --abbrev-commit --date=relative
+    lol = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+[color]
+    ui = auto
+[core]
+    editor = vim8
+    pager = less -F -X
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
+[grep]
+	lineNumber = true
+[help]
+    autoCorrect = 20
+# vim:sts=4:sw=4:et:
