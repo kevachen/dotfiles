@@ -19,7 +19,6 @@ Plug 'davidhalter/jedi-vim'
 Plug 'nvie/vim-flake8'
 Plug 'tmhedberg/SimpylFold'
 
-
 call plug#end()
 
 
