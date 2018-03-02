@@ -11,6 +11,7 @@ Plug 'vim-syntastic/syntastic'
 Plug 'scrooloose/nerdtree'
 Plug 'isobit/vim-darcula-colors'
 Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plug 'tpope/vim-fugitive'
 
 " PYTHON
 Plug 'Vimjas/vim-python-pep8-indent'
