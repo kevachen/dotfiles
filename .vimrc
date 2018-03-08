@@ -21,7 +21,6 @@ Plug 'tmhedberg/SimpylFold'
 
 call plug#end()
 
-
 filetype plugin indent on    " required
 
 syntax enable
@@ -69,6 +68,7 @@ set backspace=2     " make backspace behave properly
 set encoding=utf8   " use utf8"
 set hidden          " hides buffers instead of closing them
 set visualbell      " no sounds
+set hlsearch        " highlight searches
 
 """"        UI CONFIG       """"
 filetype indent on  " load filetype-specific indent files
